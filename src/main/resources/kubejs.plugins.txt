@@ -1,1 +1,1 @@
-com.example.exampleaddon.kubejs.ExampleKubeJSPlugin
+com.pibrary.piljs.kubejs.PilJSKubeJSPlugin

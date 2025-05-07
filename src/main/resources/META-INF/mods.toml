@@ -6,9 +6,9 @@ license = "All rights reserved" # https://choosealicense.com/
 # issueTrackerURL="https://github.com/invalid/pleasechangeme/issues"
 
 [[mods]]
-modId = "exampleaddon"
+modId = "piljs"
 version = "${version}"
-displayName = "Example Addon"
+displayName = "Pil JS"
 logoFile="icon.png"
 # credits="Thanks to FooterMan for the KubeJS Addon Template!"
 # authors="YourNameHere"
@@ -16,21 +16,21 @@ description = '''
 Example KubeJS Addon.
 '''
 
-[[dependencies.exampleaddon]]
+[[dependencies.piljs]]
 modId = "forge"
 mandatory = true
 versionRange = "[47,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.exampleaddon]]
+[[dependencies.piljs]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.20.1,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.exampleaddon]]
+[[dependencies.piljs]]
 modId = "kubejs"
 mandatory = true
 versionRange = "[2001.6.4,)"

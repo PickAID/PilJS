@@ -1,11 +1,12 @@
 {
   "required": true,
-  "package": "com.example.exampleaddon.mixin",
+  "package": "com.pibrary.piljs.mixin",
   "compatibilityLevel": "JAVA_17",
   "minVersion": "0.8",
   "mixins": [
   ],
   "client": [
+    "LevelRenderMixin"
   ],
   "injectors": {
     "defaultRequire": 1
