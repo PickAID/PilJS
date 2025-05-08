@@ -9,5 +9,5 @@ public interface PilJSKubeJSEvents {
     EventGroup SERVER_GROUP = EventGroup.of("PilJSServer");
     EventGroup CLIENT_GROUP = EventGroup.of("PilJSClient");
 
-    EventHandler SKY_TEXTURE = CLIENT_GROUP.client("levelTexture", () -> LevelTextureEventJS.class);
+    EventHandler LEVEL_TEXTURE = CLIENT_GROUP.client("levelTexture", () -> LevelTextureEventJS.class);
 }

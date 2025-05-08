@@ -4,10 +4,10 @@ import dev.latvian.mods.kubejs.client.ClientEventJS;
 import net.minecraft.resources.ResourceLocation;
 
 public class LevelTextureEventJS extends ClientEventJS {
-    public ResourceLocation sunTexture = new ResourceLocation("textures/environment/sun.png");
-    public ResourceLocation moonTexture = new ResourceLocation("textures/environment/moon.png");
-    public ResourceLocation rainTexture = new ResourceLocation("textures/environment/rain.png");
-    public ResourceLocation snowTexture = new ResourceLocation("textures/environment/snow.png");
+    public ResourceLocation sunTexture = null;
+    public ResourceLocation moonTexture = null;;
+    public ResourceLocation rainTexture = null;;
+    public ResourceLocation snowTexture = null;;
 
     public void setSun(ResourceLocation resourceLocation) {
         this.sunTexture = resourceLocation;
